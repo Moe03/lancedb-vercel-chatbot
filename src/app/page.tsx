@@ -1,19 +1,23 @@
 'use client'
-import Image from 'next/image'
-import { useState, useEffect } from 'react'
-import Chat from './components/Chat'
-import Form from './components/Form'
-import lancedbLogo from '../../public/lancedb.svg'
-import vercelLogo from '../../public/vercel.svg'
+import { useState } from 'react';
+
+import Image from 'next/image';
+
+import lancedbLogo from '../../public/lancedb.svg';
+import vercelLogo from '../../public/vercel.svg';
+import Chat from './components/Chat';
+import Form from './components/Form';
 
 export default function Home() {
   const [data, setData] = useState('');
   const [state, setState] = useState({
-    chat: false,
+    chat: true,
     pages: 1,
     website: 'https://vercel.com/sitemap.xml',
-    table: '',
+    table: 'website-b9856bb6f038f60008ab45e33880ed3403db28d4c70a278d514900b8c04a8d7e',
   })
+
+  console.log(state)
 
   return (
     <main className="flex min-h-screen flex-col">

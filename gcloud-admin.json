@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "speakwiz-app",
+  "private_key_id": "403660f3c8ca4351fc3138f3780cc2b3338fcf52",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCVRGmG7e9XljFC\nADbfWnJg+QUGwH+7tg/LF0s8kuzUBydhvxg+9V3QPVsQmTUUMrV9Igh1LKgUUsPw\n8BeHFYInq4S0mEVZz3w8m5ti8gRBKmdwMYK7qf3gudXkks4xs3GxeZ5mdhkfHESO\nCyXlc0rwew3p/JljZZsiv3HuJZZ6Oe5iZcIVIZDG0ivTJ0ax1wU4/+3v9LX8mTRg\nFt6Zh1/NG+cXHRM/OPHFUS2PiaDp2Q5k/8ICGrN1eAjlSFnXxZryvRgQuxUuxNHw\n9RqBdVsoYQ/Zfw/NsAi80PHj2kIUeiASlhZ4VaeLtuCWwnrGDBcudgkPUH6KirEc\nOVqmoMd1AgMBAAECggEACEeK/5gmDPqAkUkiwgvUdAA2tlOqIiGB9GwT2Rsgi3g5\ncn4KMb/OwX9jFDjIosNXTBwS/QY07SpUF61cQ2VphUV0bxynyB4D+vakoqiK8jRl\nwr7e91rWrAboJYK7xjJOYvTnLjFsc6HP7v27pI5bFfC1al5VAcLqh9MNAOkmf3FZ\nGY/89UmsslReWK6/4IJWBQnJ40F+lkcOWsy/0LA1SK5DPqc6JtBIOuHkJjOOkxTH\njpDpm5p2vksk4zJT7jypLb4kayBHryx8ARf215+kl8UXv7DJufU0ZsaeA5pWJpbj\nFXv0BxYDIaihGIKQkTPclcwdts6W+vVivyOFV8BUYQKBgQDRtKsui4KUk0sTVoAb\n2gPEnSmIluZB8VJMjeVW1Oj8E3qrm2JQ1mA8ztf1EpNFG+G2SIdniD523WL0BIKZ\nYlrfUhpXotdOADyGniTcqr3VLSjeaOBU6rRu7pNX0dv4heaPM2GQEztmLfYJQ+wy\nwcerW+V03HzBannmyln/lx7lhQKBgQC2OB2sCYMNPk9C2sdPtAABGIwFwcu3BVPv\nrvN6u39Mt198X1nY7iyK6Jd0FUXt2j3pBI1HxAvLfPEwLZ/L5dpTC0rjLQodBOaC\nBmsSSZ0Ea6kXhxgcN7fvHOnrLqqDSSLycMdtSUtZNER0sqXxLYRMWAmotXbUkqFL\nxIOqgJJFMQKBgCEHRZbVHkHsWPy4uQCp+8HxxuLecXGdYorwJljgu7lIECALHxcA\nTLQHF/hfbpaJ56jgD4N87+mkwLsSIsepuApIUiHPYf3FB8NkEQY4ViHHNRKijgKR\n3M1EAizovq6L2F5hh1I71TUotAGNkxwDbUFN/fvD5lpIPN7erAIXeSRJAoGAV09o\nGEiufKgAfn4pxizvW5cRcKi9HcL1xwDDNWmlw3KR1Bw0BteIjD6KY1rWGPPbek1u\nDJcJN8V0I6uYx7Ao/mWIynWIRQNWF7NPloGjNL0JVnaqvMqN3YqzIrdHiISAtD4J\nsHnQGrwKmQgIrxkqLRJ5/laEy7I+ivlsRUQ50eECgYEAt7hcyNqBYqeuMeJnA6y0\nYARKmJu8mUAdtMte0gEJogCLQHfYkeo60L1udaGU4dFNXfy9vK9VagrUxtk/Q/Zb\nc0sHThoQkQ1oF1kjjjWR334/ETPaT3sMkXdk3su5YaKkomJOVwITEyJWohzPmSNL\nr8zj7RSXS08x7gEF4N7vQiM=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-y185a@speakwiz-app.iam.gserviceaccount.com",
+  "client_id": "103263748609226154277",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-y185a%40speakwiz-app.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

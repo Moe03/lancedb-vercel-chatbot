@@ -1,6 +1,10 @@
-import { connect, OpenAIEmbeddingFunction } from 'vectordb';
-import { getDomObjects } from './scrape';
 import crypto from 'crypto';
+import {
+  connect,
+  OpenAIEmbeddingFunction,
+} from 'vectordb';
+
+import { getDomObjects } from './scrape';
 
 export async function createEmbeddingsTable(url: string, pages: number) {
   const db = await connect('/tmp/website-lancedb')
@@ -20,6 +24,7 @@ export async function createEmbeddingsTable(url: string, pages: number) {
   for (var i = batchSize; i < data.length; i += batchSize) {
     await tbl.add(data.slice(i, Math.min(i + batchSize, data.length)))
   }
+  console.log(tbl.name);
   return tbl.name
 }
 

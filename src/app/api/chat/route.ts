@@ -1,6 +1,13 @@
-import { OpenAIStream, StreamingTextResponse } from 'ai'
-import { Configuration, OpenAIApi } from 'openai-edge'
-import { createPrompt } from './prompt'
+import {
+  OpenAIStream,
+  StreamingTextResponse,
+} from 'ai';
+import {
+  Configuration,
+  OpenAIApi,
+} from 'openai-edge';
+
+import { createPrompt } from './prompt';
 
 // Create an OpenAI API client (that's edge friendly!)
 const config = new Configuration({
@@ -13,7 +20,8 @@ export const runtime = 'edge'
 
 export async function POST(req: Request) {
   // Extract the `messages` from the body of the request
-  const { messages, table } = await req.json()
+  const { messages, table } = await req.json();
+  console.log(messages, table)
 
   const baseUrl = process.env.VERCEL_URL ? 'https://' + process.env.VERCEL_URL : 'http://localhost:3000'
   const context = await fetch(`${baseUrl}/api/retrieve`, {
